@@ -89,7 +89,7 @@ The project connects networking concepts to defensive monitoring, including:
 
 The complete internship report is:
 
-**`Report/REPORT.md`**
+Full report: [report/report.md](report/report.md)
 
 The PDF version for submission is:
 
