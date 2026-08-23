@@ -5,6 +5,8 @@
 ![VirtualBox](https://img.shields.io/badge/Tool-VirtualBox-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
+Full report: [report/report.md](report/report.md)
+
 ## Project Overview
 
 This project covers the foundation of building a basic cybersecurity and SOC laboratory environment.
