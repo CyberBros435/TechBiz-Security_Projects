@@ -22,13 +22,13 @@ The following practical activities were documented:
 
 ### Evidence
 
-![Windows Fundamentals 1](images/w1.png)
+![Windows Fundamentals 1](w1.png)
 
-![Investigating Windows Environment](images/w2.png)
+![Investigating Windows Environment](w2.png)
 
-![Event Viewer — Security Log Filtered for Event ID 4624](images/w3.png)
+![Event Viewer — Security Log Filtered for Event ID 4624](w3.png)
 
-![Event ID 4624 Details](images/w4.png)
+![Event ID 4624 Details](w4.png)
 
 ## Five Important Windows Event IDs
 
