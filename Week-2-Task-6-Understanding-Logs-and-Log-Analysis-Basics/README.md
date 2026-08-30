@@ -17,7 +17,7 @@ Understanding_Logs_Log_Analysis_Basics/
 │
 ├── README.md
 ├── report/
-│   ├── REPORT.md
+│   ├── report.md
 │   ├── t1.png
 │   └── t2.png
 │
@@ -49,7 +49,7 @@ Understanding_Logs_Log_Analysis_Basics/
 
 ## 📄 Final Report
 
-Full report: [report/REPORT.md](report/REPORT.md)
+Full report: [report/report.md](report/report.md)
 
 ## 🎯 Key Takeaway
 
