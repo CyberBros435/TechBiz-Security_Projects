@@ -21,13 +21,13 @@ This project introduces the Lockheed Martin Cyber Kill Chain and MITRE ATT&CK, w
 Week-2-Task-8-Cyber-Kill-Chain-and-MITRE-ATTACK/
 ├── README.md
 ├── Week-2-Task-8-Cyber-Kill-Chain-and-MITRE-ATTACK.pdf
-└── Report/
-    ├── REPORT.md
+└── report/
+    ├── report.md
     └── b1.png
 ```
 
 ## Final Report
-Full report: [Report/REPORT.md](Report/REPORT.md)
+Full report: [report/report.md](report/report.md)
 
 ## Evidence Note
 The screenshot is the original screenshot supplied for this project. No fabricated screenshot evidence has been added.
