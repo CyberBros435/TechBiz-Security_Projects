@@ -57,7 +57,7 @@ Both mandatory free-tier rooms completed:
 ## 7. Screenshots
 
 ### TryHackMe — Intro to Cyber Threat Intel (Room Start)
-![Room Start](thread0.png)
+![Room Start](thread.png)
 
 ### TryHackMe — Room Completed (5 tasks, 72 points)
 ![Room Completed](thread1.png)
