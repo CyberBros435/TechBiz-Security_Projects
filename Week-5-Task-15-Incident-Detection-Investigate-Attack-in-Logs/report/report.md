@@ -91,7 +91,7 @@ Attempts occurred within seconds of each other — automated/scripted brute-forc
 ![Source Address Stats](t6.png)
 
 ### TryHackMe — Investigating Windows (Room Completed 100%)
-![TryHackMe Room Completed](thm_room.png)
+![TryHackMe Room Completed](Untitled.png)
 
 ---
 *End of report.*
