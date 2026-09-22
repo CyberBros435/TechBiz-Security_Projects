@@ -1,0 +1,135 @@
+INCIDENT RESPONSE PRACTICAL NOTES
+
+Incident Type:
+Suspected Malware Infection
+
+Initial Alert:
+Suspicious PowerShell activity detected on a Windows workstation.
+
+Initial User Report:
+The user reported opening an unexpected email attachment shortly before the suspicious activity was detected.
+
+Initial SOC L1 Actions:
+1. Review the alert details.
+2. Identify the affected workstation and user.
+3. Determine the approximate incident time.
+4. Review available Windows/security logs.
+5. Check the suspicious PowerShell activity.
+6. Determine whether the activity appears malicious.
+7. Record the evidence and escalate if the incident exceeds L1 scope.
+
+Initial Assessment:
+The activity is suspicious and requires further investigation.
+
+Potential Impact:
+The workstation may be compromised and could potentially communicate with malicious infrastructure or allow further malicious activity.
+
+Escalation Consideration:
+Escalate from L1 to L2 when deeper investigation, endpoint forensics, malware analysis, broader environment investigation, or advanced containment is required.
+
+CONTAINMENT NOTES
+
+Short-Term Containment:
+The immediate objective is to stop the suspected malware from communicating with other systems or spreading further.
+
+Example:
+Isolate the affected Windows workstation from the network while preserving the system for investigation.
+
+Long-Term Containment:
+The objective is to maintain the affected system in a controlled state while deeper investigation and remediation are performed.
+
+Example:
+Keep the workstation isolated, restrict affected accounts or network access where necessary, and continue investigation before returning the system to normal operation.
+
+SOC L1 Responsibility:
+L1 should follow the organization's approved containment procedure, document every action, preserve relevant evidence, and escalate when containment requires actions outside L1 authorization.
+
+Escalation:
+If the incident involves multiple systems, suspected active attacker access, persistence, significant business impact, advanced malware analysis, or actions outside L1 authorization, escalate to L2/incident response personnel.
+
+
+6-PHASE INCIDENT RESPONSE WALKTHROUGH
+
+Scenario:
+A user opens an unexpected email attachment on a Windows workstation. Shortly afterward, the SOC detects suspicious PowerShell activity. The workstation is suspected of being infected with malware.
+
+PHASE 1 — PREPARATION
+The organization maintains endpoint protection, centralized logging, SIEM monitoring, incident-response procedures, user reporting channels, and trained SOC personnel. The SOC has documented procedures for investigating and containing suspected malware incidents.
+
+L1 SOC Action:
+Ensure required logs, alerts, monitoring, and escalation procedures are available before incidents occur.
+
+PHASE 2 — DETECTION & ANALYSIS
+The SOC receives an alert for suspicious PowerShell activity. The L1 analyst reviews the alert, identifies the affected host and user, checks the event timeline, examines available Windows logs, and determines whether the activity is potentially malicious.
+
+L1 SOC Action:
+Validate the alert, collect initial evidence, determine scope, classify severity, and document findings.
+
+PHASE 3 — CONTAINMENT
+The affected workstation is isolated from the network according to the organization's incident-response procedure. This reduces the possibility of malware communicating externally or spreading to other systems.
+
+Short-Term:
+Immediately isolate the affected workstation.
+
+Long-Term:
+Maintain controlled isolation while investigation and remediation continue.
+
+L1 SOC Action:
+Perform authorized containment and document the action. Escalate if advanced containment is required.
+
+PHASE 4 — ERADICATION
+Security/incident-response personnel identify and remove the malware and any associated persistence mechanisms. Malicious files, unauthorized changes, and compromised credentials are addressed according to organizational procedures.
+
+L1 SOC Action:
+Provide collected evidence and investigation findings to L2/incident-response personnel when eradication requires elevated privileges, endpoint forensics, or malware analysis.
+
+PHASE 5 — RECOVERY
+After eradication, the workstation is restored to a trusted operational state. Security controls are verified, required credentials are secured, and monitoring is increased to detect possible recurrence.
+
+L1 SOC Action:
+Monitor the recovered endpoint for new suspicious alerts and confirm that normal security monitoring has resumed.
+
+PHASE 6 — LESSONS LEARNED
+The incident is documented after resolution. The SOC reviews the initial detection, investigation, containment, eradication, and recovery actions. Gaps are identified and recommendations are recorded.
+
+Possible Improvements:
+- Improve detection rules for suspicious PowerShell activity.
+- Review email attachment security controls.
+- Improve endpoint monitoring.
+- Update incident-response procedures.
+- Provide additional user security awareness training.D
+
+
+
+L1 TO L2 ESCALATION NOTE
+
+L1 SOC analysts normally perform initial alert validation, basic investigation, evidence collection, documentation, and authorized first-response actions.
+
+The incident should be escalated to L2 when:
+
+1. Multiple systems appear affected.
+2. There is evidence of active attacker access.
+3. Malware persistence is suspected.
+4. Advanced malware analysis is required.
+5. Endpoint forensics is required.
+6. The incident has significant business or operational impact.
+7. Privileged or sensitive accounts may be compromised.
+8. Containment requires actions outside L1 authorization.
+9. The root cause cannot be determined using available L1 procedures.
+10. The incident continues or worsens after initial containment.
+
+ESCALATION DECISION FOR THIS SCENARIO:
+
+The L1 analyst validates the suspicious PowerShell alert, identifies the affected workstation, collects initial evidence, and performs authorized containment.
+
+If investigation indicates persistence, additional compromised systems, credential compromise, active attacker access, or a need for advanced forensic/malware analysis, L1 escalates the incident to L2/incident-response personnel.
+
+Escalation should include:
+- Alert details
+- Affected host/user
+- Timeline
+- Relevant log evidence
+- Actions already performed
+- Containment status
+- Reason for escalation
+- Current suspected impact
